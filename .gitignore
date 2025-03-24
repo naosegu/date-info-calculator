@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# ビルド生成物
+dateinfo
