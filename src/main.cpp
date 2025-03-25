@@ -1,6 +1,7 @@
-#include <iostream>
+#include "DisplayManager.h"
 
 int main() {
-    std::cout << "Hello, date-info-calculator!" << std::endl;
+    DisplayManager dm;
+    dm.displayInfo();
     return 0;
 }
