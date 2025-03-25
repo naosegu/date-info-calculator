@@ -1,6 +1,6 @@
 CC = g++
-CFLAGS = -Wall -std=c++17
-SRC = src/main.cpp
+CFLAGS = -Wall -std=c++17 -Iinc
+SRC = src/main.cpp src/DateInfo.cpp src/ZodiacCalculator.cpp src/DisplayManager.cpp
 TARGET = dateinfo
 
 all: $(TARGET)
